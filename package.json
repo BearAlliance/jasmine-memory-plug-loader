@@ -1,0 +1,37 @@
+{
+  "name": "jasmine-memory-webpack-plugin",
+  "version": "0.0.0",
+  "description": "webpack plugin to plug block-scope memory leak",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "webpack": "webpack --config spec/webpack.config.js"
+  },
+  "keywords": [
+    "jasmine",
+    "webpack",
+    "memory",
+    "leak"
+  ],
+  "author": "NickCacace",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^1.1.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^3.0.0",
+    "requirejs": "^2.3.5",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.4"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "ast-types": "^0.11.5",
+    "recast": "^0.15.0",
+    "webpack-sources": "^1.1.0"
+  }
+}
