@@ -1,3 +1,9 @@
+# DEPRECATED
+
+Jasmine [fixed the memory
+leak](https://github.com/jasmine/jasmine/issues/1154) in
+v3.0.0+. Please upgrade to a recent version of Jasmine.
+
 # jasmine-memory-plug-loader
 
 A webpack loader that plugs jasmine memory leaks
@@ -43,7 +49,7 @@ Good question. Because if you wrote crappy, non-atomic tests that depend on the 
 If you wrote good tests, congratulations. I'll be adding an option to do this soon.
 
 ### Will this clean up all of my memory leaks?
-No. Things inserted into the DOM during the test run will remain there if they are not cleaned up. 
+No. Things inserted into the DOM during the test run will remain there if they are not cleaned up.
 
 # Use
 
